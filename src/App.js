@@ -9,7 +9,6 @@ function App() {
       <PopJS></PopJS>
      </div>
      <div className="dropdown">
-
      <select>
      <option value="1">Shivangi</option>
      <option value="2">Pratik</option>
