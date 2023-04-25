@@ -1,0 +1,30 @@
+.chat-icon {
+    background-color: #4285f4;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px; /* update bottom position */
+    right: 20px; /* add left position */
+    margin-right:1%;
+
+
+  }
+  .chat-icon container{
+    position : relative;
+    width : 2%;
+  }
+
+  .chat-minimize-icon{
+    width: 1rem;
+    height: 1rem;
+    object-fit: contain;
+    background-color: #383c47;
+    cursor: pointer;
+    transform: scale(1);
+    transform-origin: bottom right;
+    transition: transform 0.5s cubic-bezier(.860,.000,.070,1.000);
+}

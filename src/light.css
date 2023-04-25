@@ -1,0 +1,19 @@
+.App{
+    background: #deacac;
+}
+
+
+.chat-window .chat-header {
+  
+    background-color: #d7dcec;
+    color: rgb(20, 19, 19);
+
+   
+}
+
+.chat-footer {
+    
+    background-color: #d7dcec;
+    display: flex;
+   
+}

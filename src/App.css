@@ -1,0 +1,120 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: hsl(0, 31%, 95%);
+  color: #212121;
+  font-family: "Open Sans", sans-serif;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.chat-window {
+  width: 350px;
+  height: 700px;
+  margin-left: 160%;
+  margin-top: 80%;
+  resize: both;
+}
+
+.chat-window p {
+  margin: 0;
+}
+
+.chat-window .chat-header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #383c47;
+        color: white;
+        flex: 0.6;
+        padding-left: 1rem;
+        padding-right: 1rem;
+}
+
+.chat-window .chat-body {
+  height: calc(450px - (45px + 70px));
+  border: 1px solid #0e0c11c4;
+  background: #fff;
+  position: relative;
+  resize:both;
+}
+
+.chat-window .chat-body .message-container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.chat-window .chat-body .message-container::-webkit-scrollbar {
+  display: none;
+}
+.chat-window .chat-body .message {
+  height: auto;
+  padding: 10px;
+  display: flex;
+}
+
+.chat-window .chat-body .message .message-content {
+  width: auto;
+  height: auto;
+  min-height: 40px;
+  max-width: 120px;
+  background-color: #43a047;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.chat-footer{
+  padding-left: 1rem;
+  flex: 1;
+  background-color: #3e434d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.chat-footer input{
+  flex: 5;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  margin-right: 0.6rem;
+}
+
+.chat-footer button{
+  flex: 1;
+  background: none;
+  background-image: url('https://files.axshare.com/gsc/7V4L4U/a5/74/55/a574551b904d4414b261c6753bb71be1/images/f14362-f14639__resize__cursor/send_u91.svg?pageId=e17232ee-3310-49e7-8e6d-9c086c76aa33');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.dropdown{
+  position:absolute;
+  top: 0;
+  margin-left : 30%;
+}
